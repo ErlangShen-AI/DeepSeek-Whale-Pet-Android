@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background">#000000</color>
+    <color name="surface_card">#1C1C1E</color>
+    <color name="bar_background">#000000</color>
+    <color name="segment_track">#2C2C2E</color>
+    <color name="text_primary">#F2F2F7</color>
+    <color name="text_secondary">#98989F</color>
+    <color name="text_tertiary">#5A5A5F</color>
+    <color name="separator">#4D545458</color>
+    <color name="accent">#7F94FF</color>
+    <color name="accent_soft">#337F94FF</color>
+    <color name="on_accent">#0B1224</color>
+    <color name="ic_launcher_background">#0B1224</color>
+
+</resources>

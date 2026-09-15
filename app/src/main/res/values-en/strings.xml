@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Whale Pet</string>
+    <string name="home_title">Whale</string>
+    <string name="home_subtitle">DeepSeek balance desktop pet</string>
+
+    <string name="section_pet">Pet</string>
+    <string name="section_permission">Permissions</string>
+    <string name="section_background">Background</string>
+    <string name="row_overlay_on">Granted, the pet can be shown</string>
+    <string name="row_overlay_off">Not granted, the pet cannot be shown</string>
+    <string name="row_notification">Notifications</string>
+    <string name="row_notification_on">Granted, the balance shows in the status bar</string>
+    <string name="row_notification_off">Not granted, no status bar notice</string>
+    <string name="section_balance">Balance</string>
+    <string name="section_usage">Usage</string>
+    <string name="section_sound">Sound</string>
+    <string name="section_about">About</string>
+
+    <string name="preview_pet">Pet preview</string>
+    <string name="status_balance_label">Balance</string>
+    <string name="status_usage_label">Used today</string>
+    <string name="status_idle">Not refreshed yet</string>
+    <string name="status_hidden">Hidden</string>
+    <string name="status_custom">Custom balance enabled</string>
+    <string name="status_updated">Updated %1$s</string>
+
+    <string name="action_refresh">Refresh</string>
+    <string name="action_refresh_now">Refresh now</string>
+    <string name="action_hide">Hide</string>
+    <string name="action_field_show">Show</string>
+    <string name="action_field_hide">Hide</string>
+    <string name="action_grant">Grant</string>
+    <string name="action_allow">Settings</string>
+    <string name="action_open">Open</string>
+    <string name="action_preview">Play</string>
+
+    <string name="row_pet">Show pet</string>
+    <string name="row_pet_sub">Keep a whale above other apps</string>
+    <string name="row_scale">Size</string>
+    <string name="row_bubble">Bubble</string>
+    <string name="row_bubble_sub">Tap the whale to show balance and usage</string>
+    <string name="row_bubble_seconds">Auto close</string>
+    <string name="row_seconds_value">%1$d s</string>
+    <string name="row_auto_start">Start on boot</string>
+    <string name="row_auto_start_sub">Restore the pet after the device restarts</string>
+
+    <string name="row_permission">Overlay permission</string>
+
+    <string name="row_battery">Battery optimization</string>
+    <string name="row_battery_on">Exempted, the system will not limit the pet</string>
+    <string name="row_battery_off">Not exempted, the pet may be killed while idle</string>
+    <string name="row_autostart">Autostart and background limits</string>
+    <string name="row_autostart_sub">Allow autostart, background running and lock screen display</string>
+
+    <string name="row_api_key">API key</string>
+    <string name="row_api_key_hint">Key starting with sk-</string>
+    <string name="row_platform_token">Platform token</string>
+    <string name="row_platform_token_hint">A long string starting with Bearer</string>
+    <string name="row_token_sub">Optional, only needed by token mode</string>
+    <string name="save_state_saved">Saved</string>
+    <string name="save_state_unsaved">Not saved</string>
+
+    <string name="row_usage_mode">Usage</string>
+    <string name="row_show_usage">Show used today</string>
+    <string name="row_show_usage_sub">Hide the usage line in the bubble</string>
+    <string name="row_refresh">Refresh interval</string>
+    <string name="row_peak_text">Peak wording</string>
+    <string name="row_sound_set">Sound set</string>
+    <string name="row_volume">Volume</string>
+    <string name="row_sound_preview">Preview sound</string>
+    <string name="row_sound_preview_sub">Play one press and release with current settings</string>
+    <string name="row_percent_value">%1$d%%</string>
+
+    <string name="row_version">Version</string>
+    <string name="row_project">Project home</string>
+    <string name="row_project_sub">Source and build artifacts</string>
+    <string name="row_license">License</string>
+    <string name="row_license_sub">MIT, whale art from the original widget</string>
+
+    <string name="segment_usage_ledger">Ledger (recommended)</string>
+    <string name="segment_usage_token">Token (ask dsh)</string>
+    <string name="segment_peak_default">Default</string>
+    <string name="segment_peak_liangwen">Liangwen</string>
+    <string name="segment_peak_qiangqiang">!?Strong?!</string>
+    <string name="segment_sound_duck">Duck</string>
+    <string name="segment_sound_fx">Effect 1</string>
+    <string name="segment_sound_off">Off</string>
+
+    <string name="bubble_balance_label">DeepSeek balance</string>
+    <string name="bubble_cost_label">Last turn cost:</string>
+    <string name="bubble_today_usage">Used today %1$s</string>
+    <string name="bubble_loading">Loading…</string>
+
+    <string name="status_missing_key">API key not set</string>
+    <string name="status_key_invalid">API key rejected</string>
+    <string name="status_forbidden">Balance API forbidden</string>
+    <string name="status_http">HTTP %1$d</string>
+    <string name="status_timeout">Request timed out</string>
+    <string name="status_network">Network unavailable</string>
+    <string name="status_failed">Request failed</string>
+    <string name="status_failed_retry">Failed · tap to retry</string>
+
+    <string name="section_guide">How it works</string>
+    <string name="guide_tap_whale">Tap the whale: opens the bubble and refreshes; repeated taps only restart the timer and never close it</string>
+    <string name="guide_tap_bubble">Tap the bubble: first tap switches to a random line, the next tap closes it; a cost bubble closes on a tap</string>
+    <string name="guide_drag">Drag the whale: it snaps by drop point, to the matching edge when within a quarter of the screen, likewise vertically, otherwise it stays put; mirroring on the left edge</string>
+    <string name="guide_no_multi_tap">There is no double tap or long press action; double tapping never opens the app</string>
+    <string name="guide_settings_entry">Open settings from the app icon or the notification, not from the pet</string>
+    <string name="guide_content_modes">Bubble content: tapping the whale shows balance and usage, a balance drop shows the last turn cost, tapping the bubble switches to a random line</string>
+
+    <string name="card_custom_title">No token? Use a custom balance</string>
+    <string name="row_custom_enable">Enable custom balance</string>
+    <string name="row_custom_enable_sub">Replaces balance and usage with the texts below</string>
+    <string name="row_custom_balance">Custom balance</string>
+    <string name="row_custom_balance_hint">Any text, negatives allowed</string>
+    <string name="row_custom_usage">Custom used today</string>
+    <string name="row_custom_usage_hint">Any text, empty keeps the real value</string>
+    <string name="row_hide_balance">Lines only</string>
+    <string name="row_hide_balance_sub">Hides balance content, showing the original random lines only</string>
+
+    <string name="notification_channel_name">Pet status</string>
+    <string name="notification_channel_description">Shows balance with refresh and hide actions</string>
+    <string name="notification_title">Whale pet</string>
+    <string name="notification_text">Balance %1$s · used %2$s</string>
+
+</resources>

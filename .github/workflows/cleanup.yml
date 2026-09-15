@@ -1,0 +1,40 @@
+name: 清理历史运行
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  cleanup:
+    name: 清理历史运行
+    runs-on: ubuntu-latest
+    steps:
+      - name: 每个工作流只保留最新一次运行
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          REPO="${GITHUB_REPOSITORY}"
+          for workflow in $(gh api "repos/$REPO/actions/workflows" --jq '.workflows[].id'); do
+            gh api "repos/$REPO/actions/workflows/$workflow/runs?per_page=100" \
+              --jq '.workflow_runs[].id' | tail -n +2 | while read -r run; do
+                gh api -X DELETE "repos/$REPO/actions/runs/$run" > /dev/null || true
+              done
+          done
+          printf '历史运行已清理\n'
+
+      - name: 清理未被运行引用的历史产物
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          REPO="${GITHUB_REPOSITORY}"
+          for artifact in $(gh api "repos/$REPO/actions/artifacts?per_page=100" --jq '.artifacts[] | select(.expired == true) | .id'); do
+            gh api -X DELETE "repos/$REPO/actions/artifacts/$artifact" > /dev/null || true
+          done
+          printf '过期产物已清理\n'

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">小鲸鱼桌宠</string>
+    <string name="home_title">小鲸鱼</string>
+    <string name="home_subtitle">DeepSeek 余额桌宠</string>
+
+    <string name="section_pet">桌宠</string>
+    <string name="section_permission">权限</string>
+    <string name="section_background">后台运行</string>
+    <string name="row_overlay_on">已授权，可以显示桌宠</string>
+    <string name="row_overlay_off">未授权，桌宠无法显示</string>
+    <string name="row_notification">通知权限</string>
+    <string name="row_notification_on">已授权，状态栏显示余额</string>
+    <string name="row_notification_off">未授权，状态栏不显示余额</string>
+    <string name="section_balance">余额</string>
+    <string name="section_usage">用量</string>
+    <string name="section_sound">声音</string>
+    <string name="section_about">关于</string>
+
+    <string name="preview_pet">桌宠预览</string>
+    <string name="status_balance_label">当前余额</string>
+    <string name="status_usage_label">今日已用</string>
+    <string name="status_idle">尚未刷新</string>
+    <string name="status_hidden">已隐藏</string>
+    <string name="status_custom">自定义余额已启用</string>
+    <string name="status_updated">更新于 %1$s</string>
+
+    <string name="action_refresh">刷新</string>
+    <string name="action_refresh_now">立即刷新</string>
+    <string name="action_hide">收起</string>
+    <string name="action_field_show">显示</string>
+    <string name="action_field_hide">隐藏</string>
+    <string name="action_grant">去授权</string>
+    <string name="action_allow">去设置</string>
+    <string name="action_open">打开</string>
+    <string name="action_preview">试听</string>
+
+    <string name="row_pet">显示桌宠</string>
+    <string name="row_pet_sub">在其他应用上层常驻一只小鲸鱼</string>
+    <string name="row_scale">大小</string>
+    <string name="row_bubble">气泡</string>
+    <string name="row_bubble_sub">点击鲸鱼弹出余额与今日用量</string>
+    <string name="row_bubble_seconds">自动关闭</string>
+    <string name="row_seconds_value">%1$d 秒</string>
+    <string name="row_auto_start">开机自启</string>
+    <string name="row_auto_start_sub">开机后自动恢复上一次的桌宠状态</string>
+
+    <string name="row_permission">悬浮窗权限</string>
+
+    <string name="row_battery">电池优化白名单</string>
+    <string name="row_battery_on">已加入白名单，系统不会限制后台运行</string>
+    <string name="row_battery_off">未加入白名单，锁屏后可能被系统清理</string>
+    <string name="row_autostart">自启动与后台限制</string>
+    <string name="row_autostart_sub">在系统设置中允许自启动、后台运行与锁屏显示</string>
+
+    <string name="row_api_key">API Key</string>
+    <string name="row_api_key_hint">sk- 开头的密钥</string>
+    <string name="row_platform_token">平台令牌</string>
+    <string name="row_platform_token_hint">Bearer 开头的一长串</string>
+    <string name="row_token_sub">可选，只有实时·令牌模式需要</string>
+    <string name="save_state_saved">已保存</string>
+    <string name="save_state_unsaved">未保存</string>
+
+    <string name="row_usage_mode">用量</string>
+    <string name="row_show_usage">显示今日已用</string>
+    <string name="row_show_usage_sub">关闭后气泡不再显示今日已用</string>
+    <string name="row_refresh">刷新间隔</string>
+    <string name="row_peak_text">峰谷</string>
+    <string name="row_sound_set">音效</string>
+    <string name="row_volume">音量</string>
+    <string name="row_sound_preview">试听音效</string>
+    <string name="row_sound_preview_sub">按当前音效集合与音量播放一次</string>
+    <string name="row_percent_value">%1$d%%</string>
+
+    <string name="row_version">版本</string>
+    <string name="row_project">项目主页</string>
+    <string name="row_project_sub">源码与构建产物</string>
+    <string name="row_license">开源许可</string>
+    <string name="row_license_sub">MIT 协议，鲸鱼形象来自原挂件项目</string>
+
+    <string name="segment_usage_ledger">小鲸鱼记账 (推荐)</string>
+    <string name="segment_usage_token">实时·令牌 (用法：去问dsh)</string>
+    <string name="segment_peak_default">默认</string>
+    <string name="segment_peak_liangwen">梁文峰谷</string>
+    <string name="segment_peak_qiangqiang">!?强强?!</string>
+    <string name="segment_sound_duck">小黄鸭</string>
+    <string name="segment_sound_fx">音效1</string>
+    <string name="segment_sound_off">关闭</string>
+
+    <string name="bubble_balance_label">DeepSeek 余额</string>
+    <string name="bubble_cost_label">上一轮对话消耗:</string>
+    <string name="bubble_today_usage">今日已用 %1$s</string>
+    <string name="bubble_loading">加载中…</string>
+
+    <string name="status_missing_key">未配置 API Key</string>
+    <string name="status_key_invalid">API Key 无效</string>
+    <string name="status_forbidden">无权访问余额接口</string>
+    <string name="status_http">接口返回 %1$d</string>
+    <string name="status_timeout">请求超时</string>
+    <string name="status_network">网络不可用</string>
+    <string name="status_failed">获取失败</string>
+    <string name="status_failed_retry">获取失败 · 点击重试</string>
+
+    <string name="section_guide">使用说明</string>
+    <string name="guide_tap_whale">单击鲸鱼：弹出气泡并刷新余额，连点只重新计时，不会关闭气泡</string>
+    <string name="guide_tap_bubble">单击气泡：第一次切到随机台词，再点一次收起；消耗气泡点击直接收起</string>
+    <string name="guide_drag">拖动鲸鱼：松手按落点吸附，横向落在左右各四分之一内贴对应边，纵向同理，其余情况停在原地，贴左缘整体镜像</string>
+    <string name="guide_no_multi_tap">没有双击与长按动作，双击不会打开应用</string>
+    <string name="guide_settings_entry">设置入口是应用图标与通知栏条目，桌宠本身不承载打开设置</string>
+    <string name="guide_content_modes">气泡内容：单击鲸鱼显示余额与今日已用，余额下降时显示上一轮消耗，单击气泡切换随机台词</string>
+
+    <string name="card_custom_title">没有 Token？来自定义余额试试吧！</string>
+    <string name="row_custom_enable">启用自定义余额</string>
+    <string name="row_custom_enable_sub">气泡内的余额与今日已用改为下面的文本</string>
+    <string name="row_custom_balance">自定义余额</string>
+    <string name="row_custom_balance_hint">任意文本，可带负号</string>
+    <string name="row_custom_usage">自定义今日已用</string>
+    <string name="row_custom_usage_hint">任意文本，留空则用真实用量</string>
+    <string name="row_hide_balance">只显示台词</string>
+    <string name="row_hide_balance_sub">关闭余额相关内容，气泡只显示原版随机台词</string>
+
+    <string name="notification_channel_name">桌宠状态</string>
+    <string name="notification_channel_description">展示余额并提供刷新与收起操作</string>
+    <string name="notification_title">小鲸鱼桌宠</string>
+    <string name="notification_text">余额 %1$s · 今日已用 %2$s</string>
+
+</resources>
